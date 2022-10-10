@@ -1,10 +1,13 @@
 # second_degree_equation.py
 import math
+
 print("Please Enter the coefficients in role :")
+
 a = int(input("a:"))
 b = int(input("b:"))
 c = int(input("c:"))
 delta = (b**2-4*a*c)
+
 if delta == 0:
    x = (-b)/(2*a)
    print("This equation has got 1 real root(Double root):")
